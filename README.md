@@ -17,29 +17,44 @@
 
 ## 🎯 About Me
 
-```python
-class WaleAderonmu:
-    def __init__(self):
-        self.role = "Data Governance & Risk Analytics Professional"
-        self.experience = "10+ years in Financial Services"
-        self.location = "Canada 🇨🇦"
-        self.work_authorization = {
-            "UK": "Citizen 🇬🇧",
-            "USA": "TN Visa Eligible 🇺🇸",
-            "Canada": "Resident 🇨🇦"
-        }
-        self.currently_building = "Autonomous Multi-Agent AI Systems"
-        self.passion = "Where Governance Meets Intelligent Automation"
-    
-    def get_expertise(self):
-        return [
-            "Enterprise Data Governance",
-            "Operational Risk Analytics", 
-            "AI/ML Governance Frameworks",
-            "Regulatory Compliance (GDPR, SOX, Basel)",
-            "Multi-Agent AI Systems"
-        ]
-```
+<table>
+<tr>
+<td width="50%">
+
+### 👤 Profile
+
+🏷️ **Role:** Data Governance & Risk Analytics Professional  
+📅 **Experience:** 10+ years in Financial Services  
+📍 **Location:** Canada 🇨🇦  
+🔨 **Currently Building:** Autonomous Multi-Agent AI Systems  
+💡 **Passion:** Where Governance Meets Intelligent Automation
+
+</td>
+<td width="50%">
+
+### 🌍 Work Authorization
+
+| Country | Status |
+|:-------:|:------:|
+| 🇬🇧 UK | **Citizen** |
+| 🇺🇸 USA | **TN Visa Eligible** |
+| 🇨🇦 Canada | **Resident** |
+
+</td>
+</tr>
+</table>
+
+### 🎯 Core Expertise
+
+<div align="center">
+
+![Data Governance](https://img.shields.io/badge/Enterprise_Data_Governance-0052CC?style=for-the-badge)
+![Risk Analytics](https://img.shields.io/badge/Operational_Risk_Analytics-DC3545?style=for-the-badge)
+![AI Governance](https://img.shields.io/badge/AI/ML_Governance_Frameworks-6F42C1?style=for-the-badge)
+![Compliance](https://img.shields.io/badge/GDPR_|_SOX_|_Basel-28A745?style=for-the-badge)
+![Multi-Agent](https://img.shields.io/badge/Multi--Agent_AI_Systems-FF6B6B?style=for-the-badge)
+
+</div>
 
 ---
 
