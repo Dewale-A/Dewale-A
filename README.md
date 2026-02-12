@@ -166,11 +166,11 @@
 │    ║                      📤  OUTPUT & DELIVERY LAYER                              ║     │
 │    ╠══════════════════════════════════════════════════════════════════════════════╣     │
 │    ║                                                                               ║     │
-│    ║     ┌──────────────┐   ┌──────────────┐   ┌──────────────┐   ┌────────────┐ ║     │
-│    ║     │      📊      │   │      📕      │   │      📱      │   │     📧     │ ║     │
-│    ║     │   Markdown   │   │     PDF      │   │   Telegram   │   │    Email   │ ║     │
-│    ║     │    Report    │   │    Export    │   │   Delivery   │   │   Notify   │ ║     │
-│    ║     └──────────────┘   └──────────────┘   └──────────────┘   └────────────┘ ║     │
+│    ║              ┌────────────────────┐       ┌────────────────────┐             ║     │
+│    ║              │         📊         │       │         📕         │             ║     │
+│    ║              │     Markdown       │       │        PDF         │             ║     │
+│    ║              │      Report        │       │       Export       │             ║     │
+│    ║              └────────────────────┘       └────────────────────┘             ║     │
 │    ║                                                                               ║     │
 │    ╚══════════════════════════════════════════════════════════════════════════════╝     │
 │                                                                                          │
@@ -226,9 +226,9 @@
 </tr>
 <tr>
 <td align="center"><b>📤 Output</b></td>
-<td>Multi-Channel</td>
-<td><code>fpdf2</code> <code>Telegram API</code></td>
-<td>Report delivery & notifications</td>
+<td>Report Generation</td>
+<td><code>Markdown</code> <code>fpdf2</code></td>
+<td>Compliance reports & PDF export</td>
 </tr>
 </table>
 
