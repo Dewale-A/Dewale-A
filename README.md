@@ -75,54 +75,106 @@
 
 ### 🏗️ System Architecture
 
+<div align="center">
+
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#1a1a2e', 'primaryTextColor': '#fff', 'primaryBorderColor': '#0f3460', 'lineColor': '#e94560', 'secondaryColor': '#16213e', 'tertiaryColor': '#0f3460'}}}%%
+
 flowchart TB
-    subgraph Input["📁 Input Layer"]
-        PDF[("📄 PDF")]
-        DOCX[("📝 DOCX")]
-        TXT[("📃 TXT/MD")]
+    subgraph EXTERNAL["🌐 EXTERNAL DATA SOURCES"]
+        direction LR
+        PDF["📄 PDF<br/>Documents"]
+        DOCX["📝 Word<br/>Documents"]
+        TXT["📃 Text<br/>Files"]
+        API["🔗 External<br/>APIs"]
     end
-    
-    subgraph Orchestration["🎯 CrewAI Orchestration"]
+
+    subgraph CORE["⚡ INTELLIGENT PROCESSING CORE"]
         direction TB
         
-        subgraph Agent1["🔍 Agent 1: Ingestion Specialist"]
-            A1Task["Read & Extract<br/>Policy Content"]
+        subgraph ORCHESTRATOR["🎯 CrewAI ORCHESTRATION ENGINE"]
+            direction LR
+            TaskQueue["Task<br/>Queue"]
+            Memory["Shared<br/>Memory"]
+            Delegation["Agent<br/>Delegation"]
         end
         
-        subgraph Agent2["📊 Agent 2: Compliance Analyst"]
-            A2Task["Gap Analysis &<br/>Risk Assessment"]
+        subgraph AGENTS["🤖 AUTONOMOUS AGENT NETWORK"]
+            direction TB
+            
+            subgraph A1["AGENT 01"]
+                A1Icon["🔍"]
+                A1Name["<b>INGESTION</b><br/><i>Document Specialist</i>"]
+                A1Skills["• Text Extraction<br/>• Structure Analysis<br/>• Metadata Capture"]
+            end
+            
+            subgraph A2["AGENT 02"]
+                A2Icon["📊"]
+                A2Name["<b>ANALYSIS</b><br/><i>Compliance Analyst</i>"]
+                A2Skills["• Gap Detection<br/>• Risk Assessment<br/>• Regulatory Mapping"]
+            end
+            
+            subgraph A3["AGENT 03"]
+                A3Icon["📋"]
+                A3Name["<b>SYNTHESIS</b><br/><i>Report Generator</i>"]
+                A3Skills["• Executive Summary<br/>• Detailed Findings<br/>• Recommendations"]
+            end
         end
         
-        subgraph Agent3["📋 Agent 3: Report Writer"]
-            A3Task["Generate<br/>Compliance Report"]
+        subgraph TOOLS["🔧 TOOL LAYER"]
+            direction LR
+            T1["Document<br/>Reader"]
+            T2["Semantic<br/>Search"]
+            T3["Template<br/>Engine"]
         end
-        
-        Agent1 -->|"Structured Data"| Agent2
-        Agent2 -->|"Analysis Results"| Agent3
     end
-    
-    subgraph Tools["🔧 Custom Tools"]
-        DocReader["Document Reader"]
-        DocSearch["Document Search"]
+
+    subgraph LLM["🧠 LLM BACKBONE"]
+        direction LR
+        GPT["OpenAI<br/>GPT-4"]
+        Claude["Anthropic<br/>Claude"]
     end
-    
-    subgraph Output["📤 Output Layer"]
-        MD["📄 Markdown Report"]
-        PDFOut["📕 PDF Export"]
-        TG["📱 Telegram Delivery"]
-        Email["📧 Email Delivery"]
+
+    subgraph OUTPUT["📤 MULTI-CHANNEL OUTPUT"]
+        direction LR
+        Report["📊 Compliance<br/>Report"]
+        PDFOut["📕 PDF<br/>Export"]
+        Notify["📱 Instant<br/>Notifications"]
     end
-    
-    Input --> Agent1
-    Tools -.->|"Used by"| Agent1
-    Tools -.->|"Used by"| Agent2
-    Agent3 --> Output
-    
-    style Agent1 fill:#e3f2fd,stroke:#1976d2
-    style Agent2 fill:#fff3e0,stroke:#f57c00
-    style Agent3 fill:#e8f5e9,stroke:#388e3c
+
+    EXTERNAL --> ORCHESTRATOR
+    ORCHESTRATOR --> A1
+    A1 -->|"Extracted Content"| A2
+    A2 -->|"Analysis Results"| A3
+    TOOLS <--> AGENTS
+    LLM <-->|"Inference"| AGENTS
+    A3 --> OUTPUT
+
+    style EXTERNAL fill:#1a1a2e,stroke:#e94560,stroke-width:2px
+    style CORE fill:#16213e,stroke:#0f3460,stroke-width:3px
+    style ORCHESTRATOR fill:#0f3460,stroke:#e94560,stroke-width:2px
+    style AGENTS fill:#1a1a2e,stroke:#e94560,stroke-width:2px
+    style A1 fill:#1e3a5f,stroke:#4fc3f7,stroke-width:2px
+    style A2 fill:#3d2c5e,stroke:#ce93d8,stroke-width:2px
+    style A3 fill:#1b4332,stroke:#81c784,stroke-width:2px
+    style TOOLS fill:#37474f,stroke:#90a4ae,stroke-width:2px
+    style LLM fill:#4a148c,stroke:#e1bee7,stroke-width:2px
+    style OUTPUT fill:#1a1a2e,stroke:#e94560,stroke-width:2px
 ```
+
+</div>
+
+<div align="center">
+
+| Layer | Components | Technology |
+|:-----:|:----------:|:----------:|
+| **🌐 Input** | PDF, DOCX, TXT, Markdown | pypdf, python-docx |
+| **🎯 Orchestration** | Task Queue, Memory, Delegation | CrewAI Framework |
+| **🤖 Agents** | Ingestion, Analysis, Synthesis | Autonomous AI Agents |
+| **🧠 Intelligence** | Reasoning, Generation | GPT-4 / Claude |
+| **📤 Output** | Reports, PDF, Notifications | fpdf2, Telegram API |
+
+</div>
 
 ### ✨ Key Features
 
