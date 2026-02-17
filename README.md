@@ -162,7 +162,7 @@ Currently building **autonomous multi-agent AI systems** using CrewAI, LangChain
 | 🔍 AgenticDataQuality | ✅ Complete | 5 | Data Quality |
 | 🏦 AgenticLoanOrigination | ✅ Complete | 6 | Lending/Credit |
 | 📋 AgenticAI Policy Docs | ✅ Complete | 3 | Compliance |
-| 🔎 Enterprise RAG Platform | 🚧 In Development | - | Document Intelligence |
+| 🔎 [FinanceRAG](https://github.com/Dewale-A/FinanceRAG) | ✅ Complete | - | RAG / Document Q&A |
 | 🎯 AgenticFraudDetection | 🔜 Next | 4+ | Risk/AML |
 | 📊 AgenticRiskReporting | 📋 Planned | 5+ | Risk Analytics |
 
