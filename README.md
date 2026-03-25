@@ -3,13 +3,14 @@
   
 # 👋 Hi, I'm Wale Aderonmu
 
-### AI Systems Engineer | LLM Architecture | Enterprise AI Delivery
+### AI Systems Engineer | AI Governance | Multi-Agent Architecture | Financial Services
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/waleaderonmu)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/wale-aderonmu-2b89b168/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dewale-A)
+[![VeriStack](https://img.shields.io/badge/VeriStack-1e293b?style=for-the-badge)](https://veristack.ca)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aderonmu.ad@gmail.com)
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=3584E4&center=true&vCenter=true&random=false&width=600&lines=10%2B+Years+in+Financial+Services;Building+Production-Grade+AI+Systems;Multi-Agent+LLM+Orchestration;RAG+Pipelines+%7C+Vector+Databases" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=3584E4&center=true&vCenter=true&random=false&width=650&lines=10%2B+Years+in+Financial+Services;Governance-First+Multi-Agent+AI+Systems;11+Production-Grade+Projects+on+GitHub;AI+Governance+%7C+SOX+%7C+RAG+%7C+CrewAI" alt="Typing SVG" />
 
 </div>
 
@@ -17,101 +18,79 @@
 
 ## 🎯 About Me
 
-**AI Systems Engineer** with 10+ years in Financial Services, specializing in designing and deploying production-grade AI systems for enterprise environments. I combine hands-on LLM development with deep domain expertise in data governance, risk management, and regulatory compliance.
+**AI Systems Engineer** with 10+ years in Financial Services, building **governance-first multi-agent AI systems** for enterprise environments. Every system I build starts with the governance layer: materiality gates, segregation of duties, confidence-based escalation, and immutable audit trails. The agents come second. The controls come first.
 
-Currently building **autonomous multi-agent AI systems** using CrewAI, LangChain, and vector retrieval architectures — with a focus on auditability, explainability, and enterprise-scale deployment.
+I combine hands-on AI development (CrewAI, LangChain, RAG, FastAPI) with deep domain expertise in data governance, risk management, and regulatory compliance (SOX, GDPR, Basel III).
 
-### 🎯 Core Expertise
+**Currently:** Building autonomous AI systems for financial services at [VeriStack](https://veristack.ca) and exploring AI governance for agent systems.
+
+### Core Expertise
 
 <div align="center">
 
-![Multi-Agent AI](https://img.shields.io/badge/Multi--Agent_AI_Systems-FF6B6B?style=for-the-badge)
+![Governance-First AI](https://img.shields.io/badge/Governance--First_AI_Design-f43f5e?style=for-the-badge)
+![Multi-Agent Systems](https://img.shields.io/badge/Multi--Agent_Systems-FF6B6B?style=for-the-badge)
 ![RAG Pipelines](https://img.shields.io/badge/RAG_Pipelines-10B981?style=for-the-badge)
-![LLM Orchestration](https://img.shields.io/badge/LLM_Orchestration-8B5CF6?style=for-the-badge)
-![Data Governance](https://img.shields.io/badge/Enterprise_Data_Governance-0052CC?style=for-the-badge)
-![Compliance](https://img.shields.io/badge/GDPR_|_SOX_|_Basel-28A745?style=for-the-badge)
+![SOX Compliance](https://img.shields.io/badge/SOX_Compliance-8B5CF6?style=for-the-badge)
+![Financial Services](https://img.shields.io/badge/Financial_Services-0052CC?style=for-the-badge)
 
 </div>
 
 ---
 
-## 🚀 Featured Projects: Production-Grade AI Systems
+## 🚀 Portfolio: 11 Production-Grade AI Systems
 
-### 🔍 AgenticDataQuality — *NEW*
+### Governance-First Systems
 
-**A 5-agent autonomous system for enterprise data quality assessment with CDE profiling.**
+| Project | Agents | Description | Key Feature |
+|---------|--------|-------------|-------------|
+| [**AgenticAccountingClose**](https://github.com/Dewale-A/AgenticAccountingClose) | 6 | SOX-compliant month-end close | Materiality gates, segregation of duties, inline governance engine |
+| [**AgenticInvoiceIntelligence**](https://github.com/Dewale-A/AgenticInvoiceIntelligence) | 5 | Intelligent invoice processing | PDF/OCR extraction, PO reconciliation, duplicate detection, audit trail |
+| [**AgenticAccessGovernance**](https://github.com/Dewale-A/AgenticAccessGovernance) | 6 | IAM governance for financial services | Policy validation, risk scoring, approval routing, certification review |
+| [**AgenticFacilitiesMaintenance**](https://github.com/Dewale-A/AgenticFacilitiesMaintenance) | 6 | Facilities maintenance assistant | HITL triggers, configurable policy engine, cost threshold escalation |
 
-<div align="center">
+### Financial Services AI
 
-[![Repo](https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github)](https://github.com/Dewale-A/AgenticDataQuality)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)]()
-[![CrewAI](https://img.shields.io/badge/CrewAI-FF6B6B?style=for-the-badge)]()
-[![GPT-4o](https://img.shields.io/badge/GPT--4o-10A37F?style=for-the-badge)]()
+| Project | Agents | Description | Key Feature |
+|---------|--------|-------------|-------------|
+| [**AgenticLoanOrigination**](https://github.com/Dewale-A/AgenticLoanOrigination) | 6 | Autonomous loan underwriting | Credit analysis, risk scoring, dynamic loan pricing |
+| [**AgenticLoanOperations**](https://github.com/Dewale-A/AgenticLoanOperations) | 6 | Post-approval back office | Document tracking, verification, compliance, funding coordination |
+| [**FinanceRAG**](https://github.com/Dewale-A/FinanceRAG) | - | Financial document Q&A | Hybrid search (semantic + keyword), FastAPI, Docker |
+| [**AgenticAI-Policy-Documents-Application**](https://github.com/Dewale-A/AgenticAI-Policy-Documents-Application) | 3 | Regulatory compliance analysis | GDPR, SOX, Basel III gap analysis with remediation priorities |
 
-</div>
+### Data and Analytics AI
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/Dewale-A/AgenticDataQuality/main/docs/architecture.svg" alt="AgenticDataQuality Architecture" width="100%"/>
-</div>
+| Project | Agents | Description | Key Feature |
+|---------|--------|-------------|-------------|
+| [**AgenticDataQuality**](https://github.com/Dewale-A/AgenticDataQuality) | 5 | Enterprise data quality assessment | CDE profiling, configurable thresholds, executive reports |
+| [**Agentic-Stock-Analysis**](https://github.com/Dewale-A/Agentic-Stock-Analysis) | 6 | Daily stock research system | Multi-model strategy, automated daily reports |
+| [**Fantasy-Premier-League-Optimization**](https://github.com/Dewale-A/Fantasy-Premier-League-Optimization) | 5 | FPL team optimization | Multi-agent analysis, player valuation |
 
-| Feature | Description |
+### Reference Material
+
+| Project | Description |
 |---------|-------------|
-| 🤖 **5 Specialized Agents** | Profiler, Validator, Anomaly Detector, Report Writer, Senior Editor |
-| 📊 **CDE Analysis** | Critical Data Element profiling with configurable thresholds |
-| ✨ **Executive Polish** | GPT-4o powered Senior Editor for C-suite ready reports |
-| 🎯 **Quality Scoring** | Overall DQ Score + CDE Quality Score (0-100) |
+| [**ai-developer-bible**](https://github.com/Dewale-A/ai-developer-bible) | Comprehensive guide: RAG Edition + Multi-Agent Edition |
 
 ---
 
-### 🏦 AgenticLoanOrigination
+## 🏗️ Architecture Philosophy
 
-**A 6-agent autonomous system for end-to-end loan underwriting and decisioning.**
+Every system follows the same pattern:
 
-<div align="center">
+```
+Input → [Agent Pipeline] → [Governance Engine (inline)] → Output
+                                    |
+                              [Human-in-the-Loop]
+                              [Audit Trail]
+```
 
-[![Repo](https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github)](https://github.com/Dewale-A/AgenticLoanOrigination)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)]()
-[![CrewAI](https://img.shields.io/badge/CrewAI-FF6B6B?style=for-the-badge)]()
-[![Status](https://img.shields.io/badge/Status-Production_Ready-00C853?style=for-the-badge)]()
+**Governance is not a step at the end. It sits between the agents.**
 
-</div>
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/Dewale-A/AgenticLoanOrigination/main/docs/architecture.svg" alt="AgenticLoanOrigination Architecture" width="100%"/>
-</div>
-
-| Feature | Description |
-|---------|-------------|
-| 🤖 **6 Specialized Agents** | Document Intake → Verification → Credit Analyst → Risk Assessor → Underwriter → Offer Generator |
-| 📊 **Risk Scoring Engine** | Credit check, DTI calculation, comprehensive risk model |
-| 💰 **Dynamic Loan Pricing** | Rate adjustments based on credit tier and risk level |
-| ✅ **Three Decision Paths** | Approve, Approve with Conditions, Deny |
-
----
-
-### 📋 AgenticAI Policy Documents Application
-
-**An autonomous multi-agent system for policy document analysis and compliance assessment.**
-
-<div align="center">
-
-[![Repo](https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github)](https://github.com/Dewale-A/AgenticAI-Policy-Documents-Application)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)]()
-[![CrewAI](https://img.shields.io/badge/CrewAI-FF6B6B?style=for-the-badge)]()
-[![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)]()
-
-</div>
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/Dewale-A/AgenticAI-Policy-Documents-Application/main/docs/architecture.svg" alt="Policy Compliance Architecture" width="100%"/>
-</div>
-
-| Feature | Description |
-|---------|-------------|
-| 🤖 **3 Specialized Agents** | Ingestion Specialist → Compliance Analyst → Report Writer |
-| 📄 **Multi-Format Support** | PDF, DOCX, TXT, Markdown |
-| 🔍 **Gap Analysis** | Maps policies to GDPR, SOX, Basel frameworks |
-| 📊 **Risk Assessment** | Prioritizes compliance gaps by business impact |
+- Agents cannot modify the rules they are measured against
+- The agent that prepares a decision never approves it (segregation of duties)
+- Confidence below threshold triggers human escalation, not a guess
+- Every decision, override, and escalation is logged to an immutable audit trail
 
 ---
 
@@ -119,24 +98,27 @@ Currently building **autonomous multi-agent AI systems** using CrewAI, LangChain
 
 <div align="center">
 
-### AI/ML & LLM Systems
+### AI/ML and LLM Systems
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic-191919?style=for-the-badge)
 ![LangChain](https://img.shields.io/badge/LangChain-121212?style=for-the-badge)
 ![CrewAI](https://img.shields.io/badge/CrewAI-FF6B6B?style=for-the-badge)
 ![RAG](https://img.shields.io/badge/RAG_Pipelines-10B981?style=for-the-badge)
-![Vector DBs](https://img.shields.io/badge/Vector_Databases-3B82F6?style=for-the-badge)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-3B82F6?style=for-the-badge)
 
-### Infrastructure & Deployment
+### Infrastructure and Deployment
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 
-### Data & Analytics
+### Data, Governance and Compliance
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+![Collibra](https://img.shields.io/badge/Collibra-1a1a2e?style=for-the-badge)
+![SOX](https://img.shields.io/badge/SOX-28A745?style=for-the-badge)
+![GDPR](https://img.shields.io/badge/GDPR-0052CC?style=for-the-badge)
+![Basel III](https://img.shields.io/badge/Basel_III-6f42c1?style=for-the-badge)
 
 </div>
 
@@ -153,37 +135,19 @@ Currently building **autonomous multi-agent AI systems** using CrewAI, LangChain
 
 ---
 
-## 🗺️ Project Roadmap
-
-<div align="center">
-
-| Project | Status | Agents | Domain |
-|---------|--------|--------|--------|
-| 🔍 AgenticDataQuality | ✅ Complete | 5 | Data Quality |
-| 🏦 AgenticLoanOrigination | ✅ Complete | 6 | Lending/Credit |
-| 📋 AgenticAI Policy Docs | ✅ Complete | 3 | Compliance |
-| 🔎 [FinanceRAG](https://github.com/Dewale-A/FinanceRAG) | ✅ Complete | - | RAG / Document Q&A |
-| 🎯 AgenticFraudDetection | 🔜 Next | 4+ | Risk/AML |
-| 📊 AgenticRiskReporting | 📋 Planned | 5+ | Risk Analytics |
-
-</div>
-
----
-
 ## 📫 Let's Connect
 
 <div align="center">
 
-**Building production-grade AI systems with enterprise governance built-in**
+**Building AI systems that pass audits, not just demos.**
 
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/waleaderonmu)
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/wale-aderonmu-2b89b168/)
+[![VeriStack](https://img.shields.io/badge/VeriStack.ca-1e293b?style=for-the-badge)](https://veristack.ca)
 [![Email](https://img.shields.io/badge/Send_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aderonmu.ad@gmail.com)
 [![GitHub](https://img.shields.io/badge/Follow_on_GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Dewale-A)
 
 ---
 
 <img src="https://komarev.com/ghpvc/?username=Dewale-A&color=3584E4&style=for-the-badge&label=Profile+Views" alt="Profile Views"/>
-
-*"Building AI systems that pass audits, not just demos"*
 
 </div>
